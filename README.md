@@ -1,5 +1,5 @@
 # PuncFinal
-1.train.ipynb是用來訓練model的, 如果要訓練bert或bertlstm必須要給予data,punctuation list,以及model存放的路徑,而bilsm還要再給vocab的路徑,可以藉由model_num選擇要訓練哪種model而bert或bertlstm的data都是以完整中文句子為單位,而bilstm則必須是斷詞後的中文句子。 
+1.train.ipynb是用來訓練model的, 如果要訓練bert或bertlstm必須要給予data,punctuation list,以及model存放的路徑,而bilsm還要再給vocab的路徑,可以藉由model_num選擇要訓練哪種model而bert或bertlstm的data都是以完整中文句子為單位,而bilstm則必須是斷詞後的中文句子。 <br>
 2.datasetBert是用來定義bert和bilstm的資料格式。 <br>
 3.dataBILSTM是用來定義BILSTM所要用的資料格式。<br>
 4.make_vocab是用來製作BILSTM所要用的詞彙字典。<br>
